@@ -1,0 +1,273 @@
+
+/* 753px hög och 1024px bred */
+
+body {
+    background-color: lightgray;
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* Allta saker för text förutom språk. Alltså font och färg, samt position */
+
+.kolumn{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.underRubrik{
+    display: flex;
+    margin-left: 30px;
+    margin-top: -25px;
+}
+
+#diplom {
+    position: absolute;
+    margin-top: -85px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 50%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 5px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.omMigText {
+    display: flex;
+    margin-top: 10%;
+    
+}
+
+.omMig {
+    display: flex;
+    color: white;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items:center ;
+}
+
+#omMigText{
+    margin-left: 15px;
+}
+
+/* Div för boxarna */
+
+.allt {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* Alla olika rutor */
+
+#orangeRuta2 {
+    width: 300px;
+    background-color: #E88310; 
+}
+
+#orangeRuta {
+    height: 753px;
+    width: 300px;
+
+    background-color: #E88310;
+}
+
+#blåRuta1 {
+    width: 450px;
+    height: 250px;
+    border-radius: 43px;
+    background-color:#2C91A0;
+    margin-top: 3%;
+    margin-left: 7%;
+}
+
+#blåRuta2 {
+    margin-left: 7%;
+    width: 450px;
+    height: 250px;
+    border-radius: 43px;
+    background-color:#2C91A0;
+    margin-top: 3%;
+}
+
+.blåRuta3 {
+    position: absolute;
+    width: 800px;
+    height: 300px;
+    background-color:#2C91A0;
+    border-radius: 43px;
+    margin-left: 33%;
+    margin-top: 25%;
+}
+
+/* progressbars */
+
+.bars{}
+
+.svenska {
+    margin-top: 10px;
+    margin-left: 150px;
+    background-color: white;
+    height: 20px;
+    width: 100px;
+}
+
+.polska {
+    margin-top: 20px;
+    margin-left: 150px;
+    background-color: white;
+    height: 20px;
+    width: 100px;
+}
+
+.engelska {
+    margin-top: 20px;
+    margin-left: 150px;
+    background-color: white;
+    height: 20px;
+    width: 100px;
+}
+
+.tyska {
+    margin-top: 20px;
+    margin-left: 150px;
+    background-color: white;
+    height: 20px;
+    width: 100px;
+}
+
+.ryska {
+    margin-top: 20px;
+    margin-left: 150px;
+    background-color: white;
+    height: 20px;
+    width: 100px;
+}
+
+/* Namnen på olika språken */
+
+.textSpråk{}
+
+#textS {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -20px;
+    color: white;
+}
+
+#textP {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: white;
+}
+
+#textE {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 60px;
+    color: white;
+}
+
+#textT {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 100px;
+    color: white;
+}
+
+#textR {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 140px;
+    color: white;
+}
+
+#barS {   
+    height: 100%;
+    width: 100%;
+    background-color: #E88310;
+}
+
+#barP {   
+    height: 100%;
+    width: 100%;
+    background-color: #E88310;
+}
+
+#barE {   
+    height:100%;
+    width: 85%;
+    background-color: #E88310;
+}
+
+#barT {   
+    height: 100%;
+    width: 50%;
+    background-color: #E88310;
+}
+
+#barR {   
+    height: 100%;
+    width: 25%;
+    background-color: #E88310;
+}
+
+/* länkar */
+
+.link{
+    background-color: #2C91A0;
+    border-color: #2C91A0;
+    box-shadow: 0px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    text-decoration-line: none;
+    font-weight: bold;
+}
+
+.ikoner{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+#ikon-insta{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin-top: 680px;
+    margin-left: 37.5px;
+    background-color: white;
+}
+
+#ikon-linkedin{
+    position: absolute;
+    margin-left: 125px;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin-top: 680px;
+}
+
+#ikon-facebook{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin-top: 680px;
+    margin-left: 212.5px;
+    background-color: white;
+}
